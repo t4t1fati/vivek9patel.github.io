@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'https://www.dextools.io/app/en/pairs';
+        this.home_url = 'https://uniswap.org/';
         this.state = {
-            url: 'https://www.dextools.io/app/en/pairs',
-            display_url: "https://www.dextools.io/app/en/pairs",
+            url: 'https://uniswap.org/',
+            display_url: "https://uniswap.org/",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://www.dextools.io/app/en/pairs" });
+        this.setState({ url: this.home_url, display_url: "https://uniswap.org/" });
         this.refreshChrome();
     }
 
