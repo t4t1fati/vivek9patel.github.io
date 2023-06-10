@@ -6,7 +6,7 @@ export class Chrome extends Component {
         this.home_url = 'https://www.dextools.io/app/en/pairs';
         this.state = {
             url: 'https://www.dextools.io/app/en/pairs',
-            display_url: "https://www.dextools.io/app/en/pairs,
+            display_url: "https://www.dextools.io/app/en/pairs",
         }
     }
 
