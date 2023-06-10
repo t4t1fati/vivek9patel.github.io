@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'https://www.google.com/webhp?igu=1';
+        this.home_url = 'https://www.dextools.io/app/en/pairs';
         this.state = {
-            url: 'https://www.google.com/webhp?igu=1',
-            display_url: "https://www.google.com",
+            url: 'https://www.dextools.io/app/en/pairs',
+            display_url: "https://www.dextools.io/app/en/pairs,
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://www.google.com" });
+        this.setState({ url: this.home_url, display_url: "https://www.dextools.io/app/en/pairs" });
         this.refreshChrome();
     }
 
@@ -47,8 +47,8 @@ export class Chrome extends Component {
             url = encodeURI(url);
             display_url = url;
             if (url.includes("google.com")) { // 😅
-                url = 'https://www.google.com/webhp?igu=1';
-                display_url = "https://www.google.com";
+                url = 'https://www.dextools.io/app/en/pairs';
+                display_url = "https://www.dextools.io/app/en/pairs";
             }
             this.setState({ url, display_url: url });
             this.storeVisitedUrl(url, display_url);
