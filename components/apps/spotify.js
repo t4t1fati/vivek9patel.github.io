@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Spotify() {
     return (
-        <iframe src="https://www.dextools.io" frameBorder="0" title="Spotify" className="h-full w-full bg-ub-cool-grey"></iframe>
+        <iframe src="https://uniswap.org/" frameBorder="0" title="Spotify" className="h-full w-full bg-ub-cool-grey"></iframe>
     )
 }
 
